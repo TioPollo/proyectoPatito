@@ -1,0 +1,100 @@
+body{
+	padding-top: 50px;
+}
+
+header{
+	margin: 0;
+}
+
+#header1{
+	background-color: #845400;
+	height: 50px;
+}
+
+#slider{
+  margin-top: 20px;
+	width: 100%;
+	height: 400px;
+  border-radius: 10px;
+}
+
+#slider img{
+	background-size: 100% 100%;
+}
+
+#navegacion{
+  margin-top: 0px;
+  background-color: #845400;
+}
+
+#hola{
+  text-align: justify;
+}
+
+#img1{
+  width: 25px;
+  height: 25px;
+  margin-top: -2px;
+}
+
+
+/* Set height of the grid so .sidenav can be 100% (adjust as needed) */
+.row.content {height: 450px}
+
+/* Set gray background color and 100% height */
+.sidenav {
+  padding-top: 20px;
+  background-color: #f1f1f1;
+  height: 100%;
+}
+
+/* Set black background color, white text and some padding */
+footer {
+  background-color: #555;
+  color: white;
+  padding: 15px;
+}
+
+/* On small screens, set height to 'auto' for sidenav and grid */
+@media screen and (max-width: 767px) {
+  .sidenav {
+    height: auto;
+    padding: 15px;
+  }
+  .row.content {height:auto;} 
+    }
+
+    @media screen and (max-width: 1199px) {
+       #slider{
+        width: 100%;
+        height: 400px;
+      }
+    }
+
+    @media screen and (max-width: 991px) {
+       #slider{
+        width: 100%;
+        height: 300px;
+      }
+    }
+
+    @media screen and (max-width: 731px) {
+       #slider{
+        width: 100%;
+        height: 250px;
+      }
+    }
+
+    @media screen and (max-width: 617px) {
+       #slider{
+        width: 100%;
+        height: 180px;
+      }
+    }
+
+    @media screen and (max-width: 449px) {
+       #slider{
+        width: 100%;
+        height: 120px;
+      }
+    }
